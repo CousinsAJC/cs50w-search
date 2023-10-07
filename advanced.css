@@ -1,0 +1,31 @@
+
+.google-form{
+    width:900px;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.first{
+
+}
+.heading{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.last{
+    font-size: .75rem;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height:20px;
+    width:350px;
+}
