@@ -11,39 +11,37 @@
             <a href="index.html" class="a-link">Google Search</a>
         </header>
         <main>
-            <img src="googleimg.png">
+            <img src="googleimg.png" class="image">
             <h3>Advanced Search</h3>
             <div class="form-container">
                 <form action="https://google.com/search" class="google-form">
-                    <div class="form-row">
-                        <label class="heading">Find pages with...</label>
-                        <label class="heading">To do this in the search box</label>
+                    <div class="form-row first-row">
+                        <label class="heading left">Find pages with...</label>
+                        <label class="heading middle">   </label>
+                        <label class="heading right">To do this in the search box</label>
                     </div>
                     <div class="form-row">
                         <label class="first">All these words:</label>
-                        <input type="text">
-                        <label class="last">type the important words: tricolor rat terrier</label>
+                        <input type="text" name="as_q" class="second">
+                        <label class="last third">type the important words: tricolor rat terrier</label>
                     </div>
                     <div class="form-row">
                         <label class="first">This exact word or phrase:</label>
-                        <input type="text">
-                        <label class="last">Put exact words in quotes: "rat terrier"</label>
+                        <input type="text" name="as_epq" class="second">
+                        <label class="last third">Put exact words in quotes: "rat terrier"</label>
                     </div>
                     <div class="form-row">
                         <label class="first">Any of these words:</label>
-                        <input type="text">
-                        <div class="stack">
-                            <label class="last">Type OR between all the words you want:</label>
-                            <label class="last">miniature OR standard</label>
-                        </div>
+                        <input type="text" name="as_oq" class="second">
+                        <label class="last third">Type OR between all the words you want: miniature OR standard</label>
                     </div>
                     <div class="form-row">
                         <label class="first">None of these words:</label>
-                        <input type="input">
-                        <div class="stack">
-                            <label class="last">Put a minus sign just before words you don't want:</label>
-                            <label class="last">-rodent, -"Jack Russell"</label>
-                        </div>
+                        <input type="input" name="as_eq" class="second">
+                            <label class="last third">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</label>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="as_button">Advanced Search</button>
                     </div>
                 </form>
             </div>

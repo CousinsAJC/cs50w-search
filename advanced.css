@@ -1,21 +1,51 @@
+.image{
+    padding-top:80px;
+}
 
+.form-container{
+    width:95%;
+}
 .google-form{
-    width:900px;
+    width:95%;
 }
 .form-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: left;
     padding-top:15px;
     padding-bottom:15px;
 }
 .first{
-
+    width:20%;
+    justify-self: left;
+    text-align: left;
+}
+.second{
+    width:40%;
+    justify-self:left;
+}
+.third{
+    width:35%;
+    justify-self:right;
+    text-align: left;
 }
 .heading{
     font-weight: bold;
     font-size: 1.25rem;
 }
+
+.heading.left{
+    text-align:left;
+    width:20%;
+}
+.heading.middle{
+    width:40%;
+}
+.heading.right{
+    text-align:left;
+    width:35%;
+}
+
 .last{
     font-size: .75rem;
 }
@@ -28,4 +58,10 @@
 input{
     height:20px;
     width:350px;
+}
+.as_button{
+    background:#4d90fe;
+    color:white;
+    padding:5px;
+    border:double #4d90fe solid;
 }
